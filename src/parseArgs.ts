@@ -1,7 +1,7 @@
 import yargs from "yargs";
 import { DEFAULT_LENGTH } from "./constants.js";
 
-export interface Args {
+interface Args {
   _: string[];
   length: number;
 }
