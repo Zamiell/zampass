@@ -23,7 +23,6 @@ rm -rf "$HOME/AppData/Roaming/npm/node_modules/$REPO" # Previous link from "npm 
 
 # Compile
 npx tsc
-touch "$DIR/dist/.npmignore"
 npm install . --global
 
 echo "Successfully built in $SECONDS seconds."
