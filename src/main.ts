@@ -2,16 +2,16 @@
 
 import clipboardy from "clipboardy";
 import sourceMapSupport from "source-map-support";
+import { parseArgs } from "./parseArgs.js";
 import { getRandomArrayElement, initArray, repeat } from "./util.js";
-
-const DEFAULT_LENGTH = 128;
 
 main();
 
 function main() {
   sourceMapSupport.install();
 
-  const password = getPassword(DEFAULT_LENGTH);
+  const args = parseArgs();
+  const password = getPassword(args.length);
   clipboardy.writeSync(password);
   console.log("Generated a password and stored it in the clipboard.");
 }
