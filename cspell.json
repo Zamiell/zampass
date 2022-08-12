@@ -1,15 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "version": "0.2",
-  "files": ["**"],
-  "ignorePaths": [".git/**", "dist/**", "node_modules/**"],
+  "files": [
+    "**"
+  ],
+  "ignorePaths": [
+    ".git/**",
+    "dist/**",
+    "node_modules/**"
+  ],
   "words": [
+    "clipboardy",
     "dbaeumer",
     "isaacscript",
     "prettierignore",
     "prettierrc",
     "sarisia",
     "technote",
-    "Zamiell"
+    "Zamiell",
+    "zampass"
   ]
 }

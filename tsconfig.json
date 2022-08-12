@@ -1,15 +1,15 @@
 // The configuration file for TypeScript.
 {
   // We extend the standard IsaacScript config:
-  // https://github.com/IsaacScript/isaacscript-tsconfig/blob/main/tsconfig.node.json
-  "extends": "isaacscript-tsconfig/tsconfig.node.json",
+  // https://github.com/IsaacScript/isaacscript-tsconfig/blob/main/tsconfig.base.json
+  "extends": "isaacscript-tsconfig/tsconfig.base.json",
 
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
-    // "outDir" specifies the output directory.
-    // By default, it will put the compiled ".js" next to the respective ".ts" file, which will
-    // clutter the "src" directory.
     "outDir": "./dist",
+
+    // The "clipboardy" library requires ESM, so we have to specify a module of "NodeNext".
+    "module": "NodeNext",
   },
 
   // A list of the TypeScript files to compile.
