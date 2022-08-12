@@ -14,8 +14,10 @@
     "node_modules/**"
   ],
   "words": [
+    "autocrlf",
     "clipboardy",
     "dbaeumer",
+    "esbenp",
     "isaacscript",
     "sarisia",
     "technote",

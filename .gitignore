@@ -2,8 +2,13 @@
 # zampass
 # -------
 
+# Windows artifacts
+thumbs.db
+
 # MacOS artifacts
 .DS_Store
+
+# cspell:disable
 
 # ------------------------------
 # GitHub Node.gitignore template

@@ -1,6 +1,4 @@
 .vscode/extensions.json
 .vscode/settings.json
 .prettierignore
-.prettierrc.js
 check-orphaned-words.sh
-tsconfig.eslint.json
