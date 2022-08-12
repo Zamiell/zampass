@@ -4,6 +4,10 @@
   "files": [
     "**"
   ],
+  "enableFiletypes": [
+    "*"
+  ],
+  "enableGlobDot": true,
   "ignorePaths": [
     ".git/**",
     "dist/**",
@@ -13,8 +17,6 @@
     "clipboardy",
     "dbaeumer",
     "isaacscript",
-    "prettierignore",
-    "prettierrc",
     "sarisia",
     "technote",
     "Zamiell",
