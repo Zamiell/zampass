@@ -17,6 +17,11 @@
   "bin": {
     "zampass": "./src/main.js"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/main"
