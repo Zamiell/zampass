@@ -13,11 +13,13 @@ export function parseArgs(): Args {
     .scriptName("zampass")
 
     .alias("h", "help") // By default, only "--help" is enabled
-    .alias("v", "version") // By default, only "--version" is enabled
+    .alias("V", "version") // By default, only "--version" is enabled
 
-    .number("length")
-    .alias("l", "length")
-    .default("length", DEFAULT_LENGTH)
+    .option("length", {
+      alias: "l",
+      default: DEFAULT_LENGTH,
+      type: "number",
+    })
 
     .parseSync();
 
