@@ -14,9 +14,7 @@
   "license": "GPL-3.0",
   "author": "Zamiell",
   "type": "module",
-  "bin": {
-    "zampass": "./dist/main.js"
-  },
+  "bin": "./dist/main.js",
   "files": [
     "dist",
     "package.json",
@@ -28,19 +26,6 @@
     "update": "isaacscript update"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "clipboardy": "^3.0.0",
-    "source-map-support": "^0.5.21",
-    "yargs": "^17.6.2"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@types/source-map-support": "^0.5.6",
-    "@types/yargs": "^17.0.14",
-    "isaacscript-lint": "^4.2.0",
-    "isaacscript-tsconfig": "^2.2.0",
-    "typescript": "^4.9.3"
-=======
     "clipboardy": "^4.0.0",
     "isaacscript-common-ts": "^16.1.0",
     "yargs": "^17.7.2"
@@ -52,6 +37,6 @@
     "isaacscript-lint": "^6.20.0",
     "isaacscript-tsconfig": "^5.0.0",
     "typescript": "^5.3.3"
->>>>>>> 1051a4f (chore: update deps)
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }
