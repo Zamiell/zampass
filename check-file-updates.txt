@@ -1,4 +1,0 @@
-.vscode/extensions.json
-.vscode/settings.json
-.prettierignore
-check-orphaned-words.sh

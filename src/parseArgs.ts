@@ -12,8 +12,8 @@ export function parseArgs(): Args {
     .usage("usage: zampass [options]")
     .scriptName("zampass")
 
-    .alias("h", "help") // By default, only "--help" is enabled
-    .alias("V", "version") // By default, only "--version" is enabled
+    .alias("h", "help") // By default, only "--help" is enabled.
+    .alias("V", "version") // By default, only "--version" is enabled.
 
     .option("length", {
       alias: "l",
