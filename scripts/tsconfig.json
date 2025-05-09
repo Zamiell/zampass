@@ -1,4 +1,4 @@
-// The configuration file for TypeScript.
+// A TypeScript configuration file, used by project scripts.
 {
   "$schema": "https://raw.githubusercontent.com/complete-ts/complete/main/packages/complete-tsconfig/schemas/tsconfig-strict-schema.json",
 
@@ -9,4 +9,6 @@
     // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.node.json
     "complete-tsconfig/tsconfig.node.json",
   ],
+
+  "include": ["./**/*.ts"],
 }
