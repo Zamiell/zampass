@@ -23,6 +23,7 @@
   "scripts": {
     "build": "tsx ./scripts/build.ts",
     "lint": "tsx ./scripts/lint.ts",
+    "publish": "complete-cli publish",
     "start": "node dist/main",
     "update": "complete-cli update"
   },
